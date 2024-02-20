@@ -2,12 +2,12 @@
   "name": "mds-test-unitaire",
   "version": "1.0.0",
   "description": "",
-  "main": "src/main.js",
+  "main": "src/App.js",
   "scripts": {
     "test-main": "jest src/test/main.spec.js",
     "test-other": "jest src/test/other.spec.js",
     "test": "concurrently \"npm run test-main\" \"npm run test-other\"",
-    "start": "node src/main.js"
+    "start": "node src/App.js"
   },
   "author": "",
   "license": "ISC",
