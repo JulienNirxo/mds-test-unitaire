@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "vercel": "^33.5.1",
     "yarn": "^1.22.21"
   },
   "jest": {
