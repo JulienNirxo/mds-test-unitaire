@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "yarn": "^1.22.21"
   },
   "jest": {
     "testEnvironment": "node",
@@ -23,7 +24,6 @@
     "transformIgnorePatterns": [
       "node_modules/(?!(<package-name>|<second-package-name>)/)"
     ]
-    
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
